@@ -77,16 +77,6 @@ java Main
 
 ---
 
-## 📄 Project Report
-
-📥 [Download Full Report](report/Project_Report.pdf)
-
----
-
-## 📑 Project Proposal
-
-📥 [Download Project Proposal](report/Project_Proposal.pdf)
-
 ---
 
 ## 📝 Project Proposal Summary
