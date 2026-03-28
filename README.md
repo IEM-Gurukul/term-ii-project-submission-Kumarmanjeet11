@@ -1,43 +1,135 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/pG3gvzt-)
-# PCCCS495 – Term II Project
+# 🎓 Online Examination & Proctoring System
 
-## Project Title
-
----
-
-## Problem Statement (max 150 words)
+A **Java-based console application** designed to conduct secure online examinations with basic proctoring features. The system ensures fair assessment by combining exam automation with monitoring mechanisms.
 
 ---
 
-## Target User
+## 🚀 Features
+
+* 🔐 **Secure Authentication**
+  Role-based login system for Admin and Students
+
+* 📚 **Question Management**
+  Admin can create and manage exam questions
+
+* ⏳ **Timed Examination**
+  Countdown timer implemented using multithreading
+
+* 📤 **Auto Submission**
+  Exam is automatically submitted when time expires
+
+* ⚠️ **Proctoring Alerts**
+  Detects suspicious activities such as tab switching and inactivity
+
+* 📊 **Result Generation**
+  Automatic evaluation and score calculation
 
 ---
 
-## Core Features
+## 🧠 OOP Concepts Demonstrated
 
-- 
-- 
-- 
+* **Abstraction** → Implemented using abstract `User` class
+* **Inheritance** → `Student` and `Admin` extend `User`
+* **Polymorphism** → Different implementations of `login()`
+* **Exception Handling** → Handles invalid inputs and runtime errors
+* **Collections Framework** →
 
----
-
-## OOP Concepts Used
-
-- Abstraction:
-- Inheritance:
-- Polymorphism:
-- Exception Handling:
-- Collections / Threads:
+  * `ArrayList` for storing questions
+  * `HashMap` for storing student answers
+* **Multithreading** → `ExamTimer` for parallel countdown execution
 
 ---
 
-## Proposed Architecture Description
+## 🏗️ System Architecture
+
+The system follows a **layered architecture**:
+
+* **Presentation Layer** → Handles user interaction (console-based UI)
+* **Business Logic Layer** → Manages exam flow, validation, and proctoring
+* **Data Layer** → Stores questions and results using collections
 
 ---
 
-## How to Run
+## 📂 Project Structure
+
+```
+OnlineExamProctoringSystem/
+│
+├── src/
+├── docs/
+├── report/
+│   ├── Project_Report.pdf
+│   ├── Project_Proposal.pdf
+│
+└── README.md
+```
 
 ---
 
-## Git Discipline Notes
-Minimum 10 meaningful commits required.
+## ⚙️ How to Run
+
+```bash
+git clone <your-repo-link>
+cd OnlineExamProctoringSystem/src
+javac Main.java
+java Main
+```
+
+---
+
+## 📄 Project Report
+
+📥 [Download Full Report](report/Project_Report.pdf)
+
+---
+
+## 📑 Project Proposal
+
+📥 [Download Project Proposal](report/Project_Proposal.pdf)
+
+---
+
+## 📝 Project Proposal Summary
+
+The **Online Examination & Proctoring System** addresses the challenges of conducting secure online exams. Many existing systems lack proper monitoring, leading to unfair practices.
+
+This project provides:
+
+* Secure authentication system
+* Question management
+* Timed examination
+* Automated result generation
+* Basic proctoring features like inactivity and tab-switch detection
+
+It is designed for:
+
+* Schools and Colleges
+* Universities
+* Coaching Institutes
+* Training Organizations
+
+The system follows a **layered architecture** ensuring modular and maintainable design. 
+
+---
+
+## 🔮 Future Enhancements
+
+* GUI implementation using JavaFX or Swing
+* Database integration (MySQL)
+* AI-based proctoring
+* Web-based deployment
+
+---
+
+## 👨‍💻 Author
+
+**Manjeet Kumar**
+Roll No: 27
+
+---
+
+## 📌 License
+
+This project is developed for academic purposes.
+
+---
